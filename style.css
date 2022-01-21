@@ -119,3 +119,9 @@ a:hover{
 .reset:hover{
     color: hsl(223, 47%, 23%);
 }
+
+@media all and (max-width:500px) {
+    body{
+        scale: 0.75;
+    }
+}
