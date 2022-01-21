@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(images/pattern-background-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 650px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    margin-top: 30px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+p{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    width: 80%;
+}
+
+.plan{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 10px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-right: 70px;
+    line-height: 28px;
+}
+
+.annual-plan{
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.price{
+    color: hsl(224, 23%, 55%);
+}
+
+a{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.submit{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 30px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: 0px 10px 1em hsl(245, 75%, 80%);
+}
+
+.reset{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    margin-top: 30px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
